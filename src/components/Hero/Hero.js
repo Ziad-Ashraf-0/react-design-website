@@ -43,7 +43,7 @@ const Hero = () => {
 
   useEffect(() => {
     console.log(inView);
-  }, inView);
+  }, [inView]);
 
   return (
     <>
